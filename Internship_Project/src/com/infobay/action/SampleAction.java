@@ -10,7 +10,7 @@ public class SampleAction extends ActionSupport{
 InternBean internBean=new InternBean();
 Map<Integer, String> branchMap=new HashMap<Integer, String>();
 Map<Integer, String> branchMap1=new HashMap<Integer, String>();
-String aaa="";
+String aaa="sdfsdfsf";
 public Map<Integer, String> getBranchMap() {
 	return branchMap;
 }
