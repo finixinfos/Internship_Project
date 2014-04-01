@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts 
+PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="default" extends="struts-default">
+<action name="sample" class="com.infobay.action.SampleAction" method="sample">
+<result name="success">/branch.jsp</result>
+</action>
+
+<action name="getBranch" class="com.infobay.action.SampleAction" method="getBranch">
+<result name="success">/branch.jsp</result>
+</action>
+
+<action name="getSecondBranch" class="com.infobay.action.SampleAction" method="getSecondBranch">
+<result name="success">/second_branch.jsp</result>
+</action>
+</package>
+
+</struts>
